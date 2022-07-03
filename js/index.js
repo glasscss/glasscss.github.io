@@ -31,7 +31,7 @@ btn.addEventListener("click", e=> {
    try {
       navigator.clipboard.writeText(cssTextArea.value)
       .then(() => {
-         alert("Code copied!");
+         alert("Copied to Clipboard!");
       });
    }catch {
       alert("Copy failed. Please select and copy code manually!");
