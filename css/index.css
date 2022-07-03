@@ -40,6 +40,8 @@ main {
 h1 {
    text-align: center;
    margin-top: 2rem;
+   max-width: calc((100%-max(10vw, 2rem))/2);
+   margin-inline: auto;
    background-image: var(--gradient-4);
    background-clip: text;
    -webkit-background-clip: text;
